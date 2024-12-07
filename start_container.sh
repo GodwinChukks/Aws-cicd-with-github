@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+sudo su root
+
 # Pull the Docker image from Docker Hub
 docker pull godwinchukks/simple-python-flask-app
 
